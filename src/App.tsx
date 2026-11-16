@@ -1,11 +1,7 @@
-// src/App.tsx
+import { AppRoutes } from './routes/AppRoutes';
+
 function App() {
-  return (
-    <div>
-      <h1>PHS-DIA - Plateforme Hospitalière</h1>
-      <p>Projet initialisé avec succès.</p>
-    </div>
-  )
+  return <AppRoutes />;
 }
 
-export default App
+export default App;
